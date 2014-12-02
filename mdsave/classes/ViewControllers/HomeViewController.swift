@@ -8,18 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+import Foundation
+
+
+
+class HomeViewController: BaseViewController {
+
+  
+    
+      override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.whiteColor()
+        
+               
+       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-}
+    
+   
+    }
 
